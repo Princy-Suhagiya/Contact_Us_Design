@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.field{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    padding: 15px;
+}
+
+#field{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input, select{
+    padding: 10px;
+    width: 300px;
+    border-color: gray;
+
+}
+button{
+    padding: 10px;
+    margin-left: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 18px;
+}
+.btn1{
+    background-color:#526D82;
+    color: white;
+    border-radius: 5px;
+}
+.btn2{
+     color:#526D82;
+     border-radius: 5px;
+}
+.btn1:hover{
+    background-color:white; 
+    color: #526D82;
+}
+.btn2:hover{
+    background-color:#526D82;
+    color: white;
+}
+
+select{
+    width: 330px;
+}
+
+@media (max-width: 1160px){
+    .btn{
+     text-align: center;
+     justify-content: center;
+     margin-left: 0px;
+    }
+}
